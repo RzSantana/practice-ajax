@@ -1,0 +1,171 @@
+/* Establecemos los estilos base para el documento */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #f5f6fa;
+}
+
+/* Estilos para los encabezados principales */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+/* Botón para volver al inicio */
+.home-link {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.home-link:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para las tarjetas de prácticas en la página principal */
+.practice-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.practice-card:hover {
+    transform: translateY(-2px);
+}
+
+.practice-card a {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.practice-card a:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para la tarjeta de usuario en la Práctica 1 */
+.user-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.user-info {
+    margin: 10px 0;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.user-info:last-child {
+    border-bottom: none;
+}
+
+/* Estilos para formularios */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+/* Estilos para botones */
+.button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+.button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+/* Estilos específicos para la Práctica 3 */
+.api-form {
+    margin-bottom: 20px;
+}
+
+.weather-map {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Estilos para mensajes de estado */
+.loading {
+    text-align: center;
+    color: #7f8c8d;
+    padding: 20px;
+}
+
+.error {
+    color: #e74c3c;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fde8e7;
+    margin: 10px 0;
+}
+
+.success {
+    color: #27ae60;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #e8f5e9;
+    margin: 10px 0;
+}
